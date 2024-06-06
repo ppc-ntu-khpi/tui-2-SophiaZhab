@@ -10,6 +10,7 @@
 
 ![](screenshots/cli2.png)
 
+*код майже той самий, що і на 5, але не містить методу generateCustomerReport() та інших рядків для report
 ## Завдання на 5
 
 ![](screenshots/cli3.png)
