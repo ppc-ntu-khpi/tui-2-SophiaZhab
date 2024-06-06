@@ -198,7 +198,7 @@ public class CLIdemo {
      * @param args аргументи командного рядка
      */
     public static void main(String[] args) {
-        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\Ярослав\\Documents\\NetBeansProjects\\CLIdemo\\data\\test.dat"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("CLIdemo\\data\\test.dat"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split("\t");
