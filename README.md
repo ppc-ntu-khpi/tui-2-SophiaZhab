@@ -212,7 +212,7 @@ public class CLIdemo {
                         parts = line.split("\t");
                         if (parts[0].equals("S")) {
                             double balance = Double.parseDouble(parts[1]);
-                            double interestRate = Double.parseDouble(parts[2]);
+                            double interestRate = Double.parseDouble(parts[1]);
                             Bank.getCustomer(Bank.getNumberOfCustomers() - 1).addAccount(new SavingsAccount(balance, interestRate));
                         } else {
                             double balance = Double.parseDouble(parts[1]);
