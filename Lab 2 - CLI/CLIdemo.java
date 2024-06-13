@@ -53,7 +53,7 @@ public class CLIdemo {
      * Запуск програми. Ініціалізує консоль та обробляє введені команди.
      */
     public void run() {
-        AnsiConsole.systemInstall(); // needed to support ansi on Windows cmd
+        AnsiConsole.systemInstall();
         printWelcomeMessage();
         LineReaderBuilder readerBuilder = LineReaderBuilder.builder();
         List<Completer> completors = new LinkedList<Completer>();
